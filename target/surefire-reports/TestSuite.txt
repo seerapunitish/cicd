@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 1.336 s <<< FAILURE! - in TestSuite
+GetWebsite(RahulshettyAcademy.tests.BaseorderTest)  Time elapsed: 1.043 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+Teardown(RahulshettyAcademy.tests.BaseorderTest)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
+GetWebsite(RahulshettyAcademy.tests.BaseorderTest)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+Teardown(RahulshettyAcademy.tests.BaseorderTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+
